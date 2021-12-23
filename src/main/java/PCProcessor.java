@@ -1,16 +1,16 @@
 import lombok.Data;
 
 @Data
-public class Processor {
+public class PCProcessor {
     private double frequency;
 
-    public Processor(double frequency) {
+    public PCProcessor(double frequency) {
         this.frequency = frequency;
     }
 
     @Override
     public String toString() {
-        return "Processor{" +
+        return "PCProcessor{" +
                 "frequency=" + frequency +
                 '}';
     }

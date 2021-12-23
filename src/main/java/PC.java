@@ -3,19 +3,19 @@ import lombok.Data;
 @Data
 public class PC {
     private String name;
-    private Processor processor;
+    private PCProcessor PCProcessor;
     private int ram;
 
-    public PC(String name, Processor processor, int ram) {
+    public PC(String name, PCProcessor PCProcessor, int ram) {
         this.name = name;
-        this.processor = processor;
+        this.PCProcessor = PCProcessor;
         this.ram = ram;
     }
 
     @Override
     public String toString() {
         return "PC{" +
-                "name='" + name + ", " + processor +
+                "name='" + name + ", " + PCProcessor +
                 ", ram=" + ram +
                 '}';
     }
