@@ -7,11 +7,4 @@ public class PCProcessor {
     public PCProcessor(double frequency) {
         this.frequency = frequency;
     }
-
-    @Override
-    public String toString() {
-        return "PCProcessor{" +
-                "frequency=" + frequency +
-                '}';
-    }
 }

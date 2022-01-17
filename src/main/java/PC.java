@@ -11,12 +11,4 @@ public class PC {
         this.PCProcessor = PCProcessor;
         this.ram = ram;
     }
-
-    @Override
-    public String toString() {
-        return "PC{" +
-                "name='" + name + ", " + PCProcessor +
-                ", ram=" + ram +
-                '}';
-    }
 }
